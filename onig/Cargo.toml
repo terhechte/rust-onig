@@ -17,6 +17,10 @@ documentation = "https://docs.rs/onig/"
 readme = "../README.md"
 license = "MIT"
 
+[lib]
+name = "onig"
+crate-type = ["cdylib", "staticlib"]
+
 [features]
 std-pattern = []
 # include regexec()
